@@ -11,6 +11,7 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls",
+        "phpactor",
         -- add more arguments for adding more language servers
       },
     },
@@ -22,6 +23,7 @@ return {
     opts = {
       ensure_installed = {
         "stylua",
+        "php",
         -- add more arguments for adding more null-ls sources
       },
     },
@@ -32,6 +34,7 @@ return {
     opts = {
       ensure_installed = {
         "python",
+        "php",
         -- add more arguments for adding more debuggers
       },
     },
